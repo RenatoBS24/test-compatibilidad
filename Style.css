@@ -1,0 +1,26 @@
+body{
+    background: #5e1b1b;
+    padding: 30px;
+}
+.cuadrado{
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+    animation: mover 1s ease-in-out infinite alternate ;
+}
+@keyframes mover {
+    25%{
+        transform: translateX(200px) rotate(180deg) scale(1.5);
+    }
+    50%{
+        transform: translateX(300px) rotate(235deg) scale(1.8);
+    }
+    75%{
+        transform: translateX(400px) rotate(360deg) scale(2.2);
+    }
+    100%{
+        transform: translateX(500px) rotate(405deg) scale(2.2);
+    }
+}
+
+
