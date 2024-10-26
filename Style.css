@@ -7,6 +7,8 @@ body{
     height: 100px;
     width: 100px;
     animation: mover 1s ease-in-out infinite alternate ;
+    -webkit-animation: mover 1s ease-in-out infinite alternate ;
+    -o-animation: mover 1s ease-in-out infinite alternate ;
 }
 @keyframes mover {
     25%{
